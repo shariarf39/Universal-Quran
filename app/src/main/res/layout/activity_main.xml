@@ -13,9 +13,17 @@
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/viewPager"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_above="@id/bottomTabLayout"
         android:layout_below="@id/header" />
+
+    <TextView
+        android:layout_below="@+id/viewPager"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="dsfsf"
+        android:textSize="100dp"
+        />
 
     <com.quranapp.android.widgets.tablayout.BottomTabLayout
         android:id="@+id/bottomTabLayout"

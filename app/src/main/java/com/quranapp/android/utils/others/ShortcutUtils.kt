@@ -72,7 +72,7 @@ object ShortcutUtils {
             .setLongLabel(ctx.getString(R.string.strLabelContinueReading))
             .setIntent(intent)
         try {
-            builder.setIcon(IconCompat.createWithResource(ctx, R.mipmap.icon_launcher))
+            builder.setIcon(IconCompat.createWithResource(ctx, R.mipmap.ic_launcher))
             ShortcutManagerCompat.pushDynamicShortcut(ctx, builder.build())
         } catch (e: Exception) {
             e.printStackTrace()
